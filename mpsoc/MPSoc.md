@@ -37,7 +37,7 @@
 
     $ petalinux-config --get-hw-description=<path-to-directory-containing-hardware description-file>
   等待一段时间后会进入如下图的配置界面(下面是Petalinux的系统配置菜单,例如“**Subsystem AUTO Hardware Settings**”“**Auto Config Settings**”他们直接影响包含设备树、内核配置和uboot等配置步骤,这里可以直接悬着Exit退出并保存,退出后可以使用 **petalinux-config** 命令来进入这个界面)</p>
-  ![图形配置界面](http://ees-pic.craftor.org/wiki3.png)</p>
+  ![图形配置界面](http://ees-pic.craftor.org/wiki3.png)
   - 设置第二分区启动,如果使用RAMdisk启动，就选择 **INITRD** </p>
     ![](http://ees-pic.craftor.org/wiki4.png)</p>
   - PetaLinux Auto Login(自动登录)</p>
