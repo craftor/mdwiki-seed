@@ -1,2 +1,2 @@
 # MPSoC
-[MPSoC](MPSoc.md)
+[MPSoC PetaLinux](MPSoc.md)
