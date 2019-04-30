@@ -74,9 +74,8 @@
   添加完成后在 xfsbl_main.c 中添加代码，具体代码在本目录中的 xfsbl_main.c 中.  
   [xfsbl_main.c](https://github.com/Eureka00/MyCode/tree/master/MPsoc/fsbl)  
 
-  添加完成后进行编译，编译完成后在在SDK工程目录下的Debug文件夹中找到 **fsbl.elf** 文件将其拷贝出备用。  
-  
-   ![fsbl.elf](http://ees-pic.craftor.org/wiki12.png)
+  添加完成后进行编译，编译完成后在在SDK工程目录下的Debug文件夹中找到 **fsbl.elf** 文件将其拷贝出备用.  
+  ![fsbl.elf](http://ees-pic.craftor.org/wiki12.png)
 
 
 ## 编译Petalinux工程  
