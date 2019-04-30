@@ -14,12 +14,12 @@
 
     $ petalinux-create --type project --template <PLATFORM> --name <PROJECT_NAME>
   
-  其中的变量说明:</p>
-  - --template <PLATFORM> -是和你使用的硬件平台有关</p>
+  其中的变量说明:
+  - --template <PLATFORM> -是和你使用的硬件平台有关
     - zynqMP (for UltraScale+ MPSoC)
     - zynq (for Zynq)
     - microblaze (for MicroBlaze).
-  - --name <PROJECT_NAME> -这是你所创建PetaLinux工程的名字 </p>
+  - --name <PROJECT_NAME> -这是你所创建PetaLinux工程的名字
 
 
         $ petalinux-create --type project --template zynqMP --name MPSoc
