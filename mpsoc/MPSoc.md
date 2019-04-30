@@ -1,15 +1,15 @@
 # MPSoc Petalinux
 
-## 创建一个硬件平台
+## 1. 创建一个硬件平台
   使用Vivado建立基础的硬件平台，如使用SDsoc请按照SDsoc标准来建立硬件平台。
-## 导出硬件描述文件
+## 2. 导出硬件描述文件
   在Vivado生成Bit文件后，执行 **Export Hardware** 后在工程目录下的 XXX.sdk 下会有类似于 system_wrapper.hdf 的硬件描述文件生成，将 xxx.sdk 拷贝到linux下之后会用到.
-## 启动PetaLinux工作环境
+## 3. 启动PetaLinux工作环境
   PetaLinux的启动非常简单，进入到petalinux的安装目录后，在命令窗口输入以下命令:即可启动
 
       $ source ./settings.sh  
   ![启动PateLinux工作环境](http://ees-pic.craftor.org/wiki启动PateLinux工作环境.png)  
-## 创建一个PetaLinux工程
+## 4. 创建一个PetaLinux工程
   使用 petalinux-create 命令来创建petalinux工程.  
 
     $ petalinux-create --type project --template <PLATFORM> --name <PROJECT_NAME>
@@ -28,7 +28,7 @@
 
   使用这个命令来创建一个默认模板,之后通过命令来导入硬件信息.
 
-## 获取硬件信息
+## 5. 获取硬件信息
   使用 petalinux-config 命令来获取硬件信息
   1. 将xxx.SDK拷贝到linux
   2. 在命令行输入命令 **($ cd test)** 进入工程文件夹,此步非常关键,如果不进入会提示找不到指令.
@@ -77,7 +77,7 @@
   ![fsbl.elf](http://ees-pic.craftor.org/wiki12.png)
 
 
-## 编译Petalinux工程  
+## 6. 编译Petalinux工程  
 
     $ petalinux-build  
 
@@ -85,6 +85,6 @@
 
     petalinux-package --boot --format BIN --fsbl images/linux/fsbl.elf --u-boot images/linux/u-boot.elf --pmufw images/linux/pmufw.elf --fpga images/linux/*.bit --force</p>
 
-## 附录  
+## 7. 附录  
    usbWifi配置</p>
     ![](http://ees-pic.craftor.org/wiki13.png)
