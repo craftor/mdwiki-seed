@@ -19,10 +19,14 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
-[Download](pages/download.md)
+[FPGA](fpga/main.md)
+[Zynq](zynq/main.md)
+[MPSoC](mpsoc/main.md)
 
 [Help](help/picbed.md)
+
+* # 图床教程
+* [Markdown写Wiki，如何使用图床](help/picbed.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
@@ -62,6 +66,6 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-<!--
+
 [gimmick:themechooser](Choose theme)
--->
+
