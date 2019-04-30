@@ -8,7 +8,7 @@
   PetaLinux的启动非常简单，进入到petalinux的安装目录后，在命令窗口输入以下命令:即可启动
 
       $ source ./settings.sh  
-  ![启动PateLinux工作环境](http://ees-pic.craftor.org/wiki/1.png)  
+  [启动PateLinux工作环境](http://ees-pic.craftor.org/wiki启动PateLinux工作环境.png)  
 ## 创建一个PetaLinux工程
   使用 petalinux-create 命令来创建petalinux工程.  
 
