@@ -25,8 +25,8 @@
 
 [Help](help/picbed.md)
 
-* # 图床教程
-* [Markdown写Wiki，如何使用图床](help/picbed.md)
+  * # 图床教程
+  * [Markdown写Wiki，如何使用图床](help/picbed.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
