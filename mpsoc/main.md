@@ -1,2 +1,2 @@
 # MPSoC
-<!-- [MPSoC](MPSoc.md) -->
+[MPSoC](MPSoc.md)
