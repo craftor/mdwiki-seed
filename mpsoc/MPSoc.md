@@ -50,7 +50,7 @@
     - 设置自动登录</p>
     ![](http://ees-pic.craftor.org/wiki9.png)</p>
 
- 4. 配置linux内核  
+4. 配置linux内核  
   在获取硬件信息完成后，输入以下指令后还可以继续修改内核配置，进入内核配置界面。  
 
           petalinux-config -c kernel
@@ -58,10 +58,10 @@
   在 **SDSoc** 使用的PateLinux中需要配置如下：</p>
   ![](http://ees-pic.craftor.org/wiki14.png)</p>
   ![](http://ees-pic.craftor.org/wiki15.png)</p>
-  5. 修改设备树信息  
+5. 修改设备树信息  
   在工程目录下的 ~/project-spec/meta-user/recipes-bsp/files/system-user.dtsi 文件中添加设备树文件。具体参考文件在本目录中的 system-user.dtsi 文件中  
   [system-usr.dtsi](https://github.com/Eureka00/MyCode/blob/master/MPsoc/devicetree/system-user.dtsi)  
-  6. 在FSBL中添加 GTR 时钟的 IIC 配置  
+6. 在FSBL中添加 GTR 时钟的 IIC 配置  
   在导出到SDK后打开SDK新建一个FSBL文件  
 
   ![FSBL](http://ees-pic.craftor.org/wiki10.png)
@@ -89,3 +89,5 @@
 ## 7. 附录  
    usbWifi配置</p>
     ![](http://ees-pic.craftor.org/wiki13.png)
+
+
