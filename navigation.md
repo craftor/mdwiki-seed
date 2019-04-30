@@ -23,7 +23,7 @@
 [Zynq](zynq/main.md)
 [MPSoC](mpsoc/main.md)
 
-[Help](help/picbed.md)
+[Help]()
 
   * # 图床教程
   * [Markdown写Wiki，如何使用图床](help/picbed.md)
