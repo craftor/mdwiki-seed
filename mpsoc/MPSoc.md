@@ -13,11 +13,11 @@
   使用 petalinux-create 命令来创建petalinux工程.  
 
     $ petalinux-create --type project --template <PLATFORM> --name <PROJECT_NAME>
-  其中的变量说明:
-  - --template <PLATFORM> -是和你使用的硬件平台有关
-    - zynqMP (for UltraScale+ MPSoC)
-    - zynq (for Zynq)
-    - microblaze (for MicroBlaze).
+  其中的变量说明:</p>
+  - --template <PLATFORM> -是和你使用的硬件平台有关</p>
+      - zynqMP (for UltraScale+ MPSoC)
+      - zynq (for Zynq)
+      - microblaze (for MicroBlaze).
   - --name <PROJECT_NAME> -这是你所创建PetaLinux工程的名字 </p>
 
 
