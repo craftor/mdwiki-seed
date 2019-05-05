@@ -15,11 +15,11 @@
     $ petalinux-create --type project --template <PLATFORM> --name <PROJECT_NAME>
   
   其中的变量说明:
-- --template <PLATFORM> -是和你使用的硬件平台有关
-  - zynqMP (for UltraScale+ MPSoC)
-  - zynq (for Zynq)
-  - microblaze (for MicroBlaze).
-- --name <PROJECT_NAME> -这是你所创建PetaLinux工程的名字
+  - --template <PLATFORM> -是和你使用的硬件平台有关
+   - zynqMP (for UltraScale+ MPSoC)
+   - zynq (for Zynq)
+   - microblaze (for MicroBlaze).
+  - --name <PROJECT_NAME> -这是你所创建PetaLinux工程的名字
 
 
         $ petalinux-create --type project --template zynqMP --name MPSoc
@@ -57,22 +57,18 @@
   在 **SDSoc** 使用的PateLinux中需要配置如下：</p>
   ![](http://ees-pic.craftor.org/wiki14.png)</p>
   ![](http://ees-pic.craftor.org/wiki15.png)</p>
+
   5. 修改设备树信息  
     在工程目录下的 ~/project-spec/meta-user/recipes-bsp/files/system-user.dtsi 文件中添加设备树文件。具体参考文件在本目录中的 system-user.dtsi 文件中  
     [system-usr.dtsi](https://github.com/Eureka00/MyCode/blob/master/MPsoc/devicetree/system-user.dtsi)  
   6. 在FSBL中添加 GTR 时钟的 IIC 配置  
     在导出到SDK后打开SDK新建一个FSBL文件  
-
-    ![FSBL](http://ees-pic.craftor.org/wiki10.png)
- 
-
+  
+  ![FSBL](http://ees-pic.craftor.org/wiki10.png)</p>
     创建完成后在src文件夹中添加以下文件</p> 
-    ![添加文件](http://ees-pic.craftor.org/wiki11.png)
- 
-
+  ![添加文件](http://ees-pic.craftor.org/wiki11.png)  
     添加完成后在 xfsbl_main.c 中添加代码，具体代码在本目录中的 xfsbl_main.c 中.  
     [xfsbl_main.c](https://github.com/Eureka00/MyCode/tree/master/MPsoc/fsbl)  
-
     添加完成后进行编译，编译完成后在在SDK工程目录下的Debug文件夹中找到 **fsbl.elf** 文件将其拷贝出备用.</p>
     ![fsbl.elf](http://ees-pic.craftor.org/wiki12.png)
 
